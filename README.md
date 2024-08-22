@@ -35,6 +35,13 @@ To complete this lab, you will need:
 The labs are intended to be take in sequential order. If you skip ahead, you may run into missing dependencies.
 
 [Interactive demos](https://app.revel.vivun.com/demos/collections/5b350f9b-a933-442f-b0f9-bba421b81b6c) have been provided for some of the steps if you are new to technology like Jupyter Notebooks.
+## Objective 0 - Download lab files
+
+Clone lab files into ubuntu home directory
+
+```shell
+git clone https://github.com/sokkolchen/llm_api_server .
+```
 
 ## Objective 1 - Test Model in Hugging Face
 
