@@ -56,7 +56,7 @@ Please copy the token value fron CLI output. You will need it to access Jupiter 
 We will use UDF proxyed access as there is no jumphost in this Lab.
 Please access Docker Host with method named HTTP-8888, it will open new browser tab with Jupiter UI. Put there token value to Log In.
 
-<img src="HTTP-8888.png" alt="Click HTTP-8888" width="500"/>
+<img src="../objective2/HTTP-8888.png" alt="Click HTTP-8888" width="500"/>
 
 ## Install Dependencies
 
