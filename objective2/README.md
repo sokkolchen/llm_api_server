@@ -57,6 +57,7 @@ We will use UDF proxyed access as there is no jumphost in this Lab.
 Please access Docker Host with method named HTTP-8888, it will open new browser tab with Jupiter UI. Put there token value to Log In.
 
 ![Click HTTP-8888](HTTP-8888.png)
+<img src="HTTP-8888.png" alt="Click HTTP-8888" width="200"/>
 
 ## Install Dependencies
 
