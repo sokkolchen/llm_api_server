@@ -51,15 +51,12 @@ For this step, we will run the Jupyter Notebook container you just built.  Run t
 docker container run -it --rm -p 8888:8888 llmapi_obj2
 ```
 
-To access the Jupyter server, you will need to look for the the output that contains the access FQDN and token, it will look something like this:
+Please copy the token value fron CLI output. You will need it to access Jupiter WebUI.
 
-```shell
-Or copy and paste one of these URLs:
-        http://4aae967c71b1:8888/lab?token=c325f331fc9fae368ded4f12ddb53d5457e219cfeacfa55e
-        http://127.0.0.1:8888/lab?token=c325f331fc9fae368ded4f12ddb53d5457e219cfeacfa55e
-```
+We will use UDF proxyed access as there is no jumphost in this Lab.
+Please access Docker Host with method named HTTP-8888, it will open new browser tab with Jupiter UI. Put there token value to Log In.
 
-Copy the url into your browser of choice.
+![Click HTTP-8888](HTTP-8888.png)
 
 ## Install Dependencies
 
