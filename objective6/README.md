@@ -64,7 +64,10 @@ docker compose up -d
 
 Now that our model is up and running via an API, we can leverage our Jupyter Notebook to perform inference using data the model has not seen before.
 
-Open a browser and access the Jupyter Notebook at: [http://localhost:8888](http://localhost:8888), the token is: _nginxrocks!_
+We will use UDF proxyed access as there is no jumphost in this Lab.
+Please access Docker Host with method named HTTP-8888, it will open new browser tab with Jupiter UI. Put there token value _nginxrocks!_to Log In.
+
+<img src="../objective2/HTTP-8888.png" alt="Click HTTP-8888" width="500"/>
 
 In your Jupyter Notebook, you notice a directory called _notebooks_ in your explorer window with a notebook called _text_summarization.ipynb_.  Open the _text_summarization.ipynb_ file.
 
