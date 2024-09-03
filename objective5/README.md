@@ -12,9 +12,10 @@ To leverage NGINX Plus, we will need access to the NGINX private registry, which
 
 ## Access NGINX Private Registry
 
-Now that you have the required license and access files, please follow the [NGINX documentation](https://docs.nginx.com/nginx/admin-guide/installing-nginx/installing-nginx-docker/#myf5-download) to pull the correct NGINX Plus docker image; for this lab we will leverage the NGINX Plus image w/o Agent.
+Now pull the NGINX Plus docker image; for this lab we will leverage the NGINX Plus image w/o Agent.
 
 ```shell
+cp /var/nginx/nginx-repo-12345abc.jwt .
 NGINX_JWT=`cat nginx-repo-12345abc.jwt`
 docker login private-registry.nginx.com --username=$NGINX_JWT --password=none
 ```
